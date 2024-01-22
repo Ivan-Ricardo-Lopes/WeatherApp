@@ -1,0 +1,6 @@
+@IvanLopes.Forecast.API_HostAddress = http://localhost:5288
+
+GET {{IvanLopes.Forecast.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

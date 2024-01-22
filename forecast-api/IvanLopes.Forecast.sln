@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D87148E-2538-4577-8961-7814B5424AD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4A7EABB8-4EB4-441F-94A1-7D8748493447}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Dev\CorteJa\README.md = ..\..\Dev\CorteJa\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IvanLopes.Forecast.API", "src\IvanLopes.Forecast.API\IvanLopes.Forecast.API.csproj", "{E9399D23-B455-4EDF-8AFA-20D98BA5DE48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IvanLopes.Forecast.Application", "src\IvanLopes.Forecast.Application\IvanLopes.Forecast.Application.csproj", "{B5FC7A81-B6A2-4DD0-9C1C-D6A913D78269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IvanLopes.Forecast.Infra", "src\IvanLopes.Forecast.Infra\IvanLopes.Forecast.Infra.csproj", "{5C98B38D-2080-4F51-9960-BDAC9B043237}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IvanLopes.Forecast.Tests", "src\IvanLopes.Forecast.Tests\IvanLopes.Forecast.Tests.csproj", "{8ED0DE11-C33E-419D-A11F-ECE05199BB84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9399D23-B455-4EDF-8AFA-20D98BA5DE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9399D23-B455-4EDF-8AFA-20D98BA5DE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9399D23-B455-4EDF-8AFA-20D98BA5DE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9399D23-B455-4EDF-8AFA-20D98BA5DE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FC7A81-B6A2-4DD0-9C1C-D6A913D78269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FC7A81-B6A2-4DD0-9C1C-D6A913D78269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FC7A81-B6A2-4DD0-9C1C-D6A913D78269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FC7A81-B6A2-4DD0-9C1C-D6A913D78269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C98B38D-2080-4F51-9960-BDAC9B043237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C98B38D-2080-4F51-9960-BDAC9B043237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C98B38D-2080-4F51-9960-BDAC9B043237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C98B38D-2080-4F51-9960-BDAC9B043237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED0DE11-C33E-419D-A11F-ECE05199BB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED0DE11-C33E-419D-A11F-ECE05199BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED0DE11-C33E-419D-A11F-ECE05199BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED0DE11-C33E-419D-A11F-ECE05199BB84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9399D23-B455-4EDF-8AFA-20D98BA5DE48} = {8D87148E-2538-4577-8961-7814B5424AD8}
+		{B5FC7A81-B6A2-4DD0-9C1C-D6A913D78269} = {8D87148E-2538-4577-8961-7814B5424AD8}
+		{5C98B38D-2080-4F51-9960-BDAC9B043237} = {8D87148E-2538-4577-8961-7814B5424AD8}
+		{8ED0DE11-C33E-419D-A11F-ECE05199BB84} = {8D87148E-2538-4577-8961-7814B5424AD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {458552F6-AC5A-4029-A289-B188EFA6DBF2}
+	EndGlobalSection
+EndGlobal
