@@ -30,7 +30,7 @@ export interface AddressInputDto {
   zipCode?: string;
 }
 
-const API_URL = process.env.FORECAST_API_URL || "https://localhost:7032/api";
+const API_URL = process.env.FORECAST_API_URL || "http://localhost:5288/api";
 
 class GetForecastByAddress {
   public static async execute(

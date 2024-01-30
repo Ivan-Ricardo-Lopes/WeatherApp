@@ -1,0 +1,15 @@
+:root {
+  --background-color: #191919;
+  --text-color: white;
+  --border-color: #2c2d2e;
+  --accent-color: #ff5721;
+  --button-bg-color: #2c2d2e;
+  --button-text-color: #ff5721;
+  --button-border-color: #ff5721;
+}
+
+@media (max-width: 550px) {
+  :root {
+    --accent-color: #ff5721;
+  }
+}
